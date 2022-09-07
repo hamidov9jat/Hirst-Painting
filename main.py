@@ -1,4 +1,4 @@
-import colorgram
+# import colorgram
 import turtle as t
 import random
 from color_list import sunset_colours
@@ -20,7 +20,6 @@ nika.setheading(225)
 nika.forward(300)
 nika.setheading(0)
 
-screen.
 print(screen.screensize())
 screen.colormode(255)
 
@@ -36,6 +35,5 @@ for dot_count in range(1, number_of_dots + 1):
         nika.setheading(180)
         nika.forward(500)
         nika.setheading(0)
-
 
 screen.exitonclick()
